@@ -1,0 +1,35 @@
+{
+	"name": "grunt-util-options",
+	"description": "Grunt util for getting options",
+	"version": "0.0.1-0",
+	"author": {
+		"name": "Mikael Karon",
+		"email": "mikael@karon.se"
+	},
+	"maintainers": [
+		{
+			"name": "Mikael Karon",
+			"web": "http://github.com/mikaelkaron"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mikaelkaron/grunt-util-options.git"
+	},
+	"bugs": {
+		"url": "https://github.com/mikaelkaron/grunt-util-options/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://mikael.mit-license.org/"
+		}
+	],
+	"main": "main.js",
+	"dependencies": {
+		"grunt-util-property": "~0.0.1"
+	},
+	"peerDependencies": {
+		"grunt": "~0.4.1"
+	}
+}
