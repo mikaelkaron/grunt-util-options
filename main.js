@@ -10,26 +10,24 @@ module.exports = function(grunt) {
 	"use strict";
 
 	var _ = grunt.util._;
-	var property = require("grunt-util-property")(grunt);
+	var _property = require("grunt-util-property")(grunt);
 
-	return function (options) {
+	return function (properties) {
 		var me = this;
 		var name = me.name;
 		var target = me.target;
-		var args = me.args;
 
-		_.each(_.rest(arguments), function (key, index) {
-			property.call(options, key, _.find([
-				args[index],
+		_.each(_.rest(arguments), function (key) {
+			_property.call(properties, key, _.find([
 				grunt.option([ name, target, key ].join(".")),
 				grunt.option([ name, key ].join(".")),
 				grunt.option(key),
-				options[key]
+				properties[key]
 			], function (value) {
-				return grunt.util.kindOf(value) !== "undefined";
+				return !_.isUndefined(value);
 			}));
 		});
 
-		return options;
+		return properties;
 	};
 }
