@@ -1,7 +1,7 @@
 {
 	"name": "grunt-util-options",
 	"description": "Grunt util for getting options",
-	"version": "0.0.2",
+	"version": "0.0.3-0",
 	"author": {
 		"name": "Mikael Karon",
 		"email": "mikael@karon.se"
