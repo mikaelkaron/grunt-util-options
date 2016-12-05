@@ -17,7 +17,7 @@ module.exports = function(grunt) {
 		var name = me.name;
 		var target = me.target;
 
-		_.each(_.rest(arguments), function (key) {
+		_.each(_.tail(arguments), function (key) {
 			_property.call(properties, key, _.find([
 				grunt.option([ name, target, key ].join(".")),
 				grunt.option([ name, key ].join(".")),
