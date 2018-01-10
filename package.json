@@ -1,41 +1,41 @@
 {
-	"name": "grunt-util-options",
-	"description": "Grunt util for getting options",
-	"version": "0.0.3",
-	"author": {
-		"name": "Mikael Karon",
-		"email": "mikael@karon.se"
-	},
-	"maintainers": [
-		{
-			"name": "Mikael Karon",
-			"web": "http://github.com/mikaelkaron"
-		}
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/mikaelkaron/grunt-util-options.git"
-	},
-	"bugs": {
-		"url": "https://github.com/mikaelkaron/grunt-util-options/issues"
-	},
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://mikael.mit-license.org/"
-		}
-	],
-	"scripts": {
-		"release": "standard-version"
-	},
-	"main": "main.js",
-	"dependencies": {
-		"grunt-util-property": "^0.0.2"
-	},
-	"peerDependencies": {
-		"grunt": ">=0.4.1"
-	},
-	"devDependencies": {
-		"standard-version": "^4.3.0"
-	}
+  "name": "grunt-util-options",
+  "description": "Grunt util for getting options",
+  "version": "0.0.4",
+  "author": {
+    "name": "Mikael Karon",
+    "email": "mikael@karon.se"
+  },
+  "maintainers": [
+    {
+      "name": "Mikael Karon",
+      "web": "http://github.com/mikaelkaron"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikaelkaron/grunt-util-options.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikaelkaron/grunt-util-options/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mikael.mit-license.org/"
+    }
+  ],
+  "scripts": {
+    "release": "standard-version"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "grunt-util-property": "^0.0.2"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.1"
+  },
+  "devDependencies": {
+    "standard-version": "^4.3.0"
+  }
 }
