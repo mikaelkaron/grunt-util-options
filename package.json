@@ -27,7 +27,7 @@
 	],
 	"main": "main.js",
 	"dependencies": {
-		"grunt-util-property": "~0.0.1"
+		"grunt-util-property": "^0.0.2"
 	},
 	"peerDependencies": {
 		"grunt": ">=0.4.1"
