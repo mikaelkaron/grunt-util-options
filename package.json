@@ -25,11 +25,17 @@
 			"url": "http://mikael.mit-license.org/"
 		}
 	],
+	"scripts": {
+		"release": "standard-version"
+	},
 	"main": "main.js",
 	"dependencies": {
 		"grunt-util-property": "^0.0.2"
 	},
 	"peerDependencies": {
 		"grunt": ">=0.4.1"
+	},
+	"devDependencies": {
+		"standard-version": "^4.3.0"
 	}
 }
